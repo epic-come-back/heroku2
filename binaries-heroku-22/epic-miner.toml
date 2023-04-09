@@ -37,7 +37,7 @@ stratum_server_addr = "104.248.160.183:3416"
 stratum_server_login = "kunemuse"
 
 # password for the stratum server (if required)
-stratum_server_password = "x"
+#stratum_server_password = "x"
 
 # whether tls is enabled for the stratum server
 stratum_server_tls_enabled = false
