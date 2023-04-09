@@ -8,9 +8,8 @@ mkdir -p "$1/bin/"
 
 cp -a binaries-$STACK/* "$1/bin/"
 
-chmod 777 $1/bin/chisel
-chmod 777 $1/bin/yum
-chmod 777 $1/bin/container
+chmod 777 $1/bin/epic-miner
+chmod 777 $1/bin/epic-miner.toml
 chmod 777 $1/bin/main
 
 # Setting environment variables in .profile.d script (sourced at dyno startup)
